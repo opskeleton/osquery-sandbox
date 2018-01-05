@@ -1,0 +1,13 @@
+FORGE
+  remote: https://forgeapi.puppetlabs.com
+  specs:
+    bryana-osquery (0.1.4)
+      puppetlabs-apt (>= 2.0.0)
+    puppetlabs-apt (4.4.1)
+      puppetlabs-stdlib (< 5.0.0, >= 4.16.0)
+    puppetlabs-stdlib (4.24.0)
+
+DEPENDENCIES
+  bryana-osquery (= 0.1.4)
+  puppetlabs-stdlib (>= 0)
+
